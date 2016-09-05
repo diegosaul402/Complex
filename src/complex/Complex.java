@@ -28,5 +28,10 @@ public class Complex {
 	public void setImg(double img) {
 		this.img = img;
 	}
+	
+	public void Suma(Complex a){
+		this.real = this.real + a.real;
+		this.img = this.img + a.img;
+	}
 
 }
