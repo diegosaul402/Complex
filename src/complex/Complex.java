@@ -38,5 +38,12 @@ public class Complex {
 		this.real = this.real - a.real;
 		this.img = this.img - a.img;
 	}
+	
+	public void Producto(Complex a){
+		double real  = this.real * a.real - this.img * a.img;
+		double img = this.real * a.img + this.img * a.real;
+		this.real = real;
+		this.img = img;
+	}
 
 }

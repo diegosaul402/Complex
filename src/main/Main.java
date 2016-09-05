@@ -9,7 +9,7 @@ public class Main {
 		System.out.println("R: " + complejo.getReal() + ", I: " + complejo.getImg());
 		
 		Complex complejo2 = new Complex(2,2);
-		complejo.Resta(complejo2);
+		complejo.Producto(complejo2);
 		System.out.println("R: " + complejo.getReal() + ", I: " + complejo.getImg());
 
 	}
