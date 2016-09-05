@@ -33,5 +33,10 @@ public class Complex {
 		this.real = this.real + a.real;
 		this.img = this.img + a.img;
 	}
+	
+	public void Resta(Complex a){
+		this.real = this.real - a.real;
+		this.img = this.img - a.img;
+	}
 
 }
